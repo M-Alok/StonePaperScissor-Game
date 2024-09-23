@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("bg-img.jpeg");
+    background-size: cover;
+}
+
+.title {
+    height: 50px;
+    color: white;
+    background-color: dimgrey;
+    text-align: center;
+    line-height: 50px;
+    font-size: xx-large;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.choice {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.choice:hover {
+    /* border: 2px solid black; */
+    opacity: 0.8;
+    cursor: pointer;
+    /* background-color: black; */
+}
+
+img {
+    height: 175px;
+    width: 175px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.score-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    gap: 4rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.msg-container {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+#msg {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+#your-score, #comp-score {
+    font-size: 4rem;
+}
